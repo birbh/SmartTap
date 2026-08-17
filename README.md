@@ -42,8 +42,40 @@ Creating this card solved two main challenges for me:
     In the front part I have added my personal data like github,insta and linkedin along with my name. I have also added cool floral design in the silkscreen too which has leds embedded in its different vacant spaces. This has made my design more cool to look for a stranger.        
 
 2. Back:
-    Its the back part where the brain of my pcb is located. On the left side of my pcb there is a coil made with wire which helps to capture the nfc field of phone and convert it into electrical energy which is connected to NT3H1101W0FTTJ nfc chip module which then helps to light up the led in the front. Also there's a cool floral design along with an art of lord Krishna which has made my pcb mor attractive. And there are some details abt me and a qr code linking to linktree as I have stated above.
+    Its the back part where the brain of my pcb is located. On the left side of my pcb there is a coil made with wire which helps to capture the nfc field of phone and convert it into electrical energy which is connected to NT3H1101W0FTTJ nfc chip module which then helps to light up the led in the front. Also there's a cool floral design along with an art of lord Krishna which has made my pcb more attractive. And there are some details abt me and a qr code linking to linktree as I have stated above.
     And I have planned to cover the copper coil with Lead-free HASL which would make my pcb look more attractive and cool. 
     
 ## Instruction to make this project:
 
+Setting up and assembling the card is straightfoward:
+
+### 1. PCB manufacturing specs:
+When submitting the greber files to your pcb manufacturer, ensure the following settings are specifies:
+- Board Thickness: 0.8 mm (which is crucial for credit card flexibility and thickness)
+- Solder mask color: Matte black or black
+- Silkscreen color: White
+- Surface finish: Lead-Free HASL
+- Copper weight: 1oz
+
+### 2. SMT component soldering:
+1. Clean the PCB pads with isopropyl alcohol(if available) before soldering. 
+2. NFC IC(U1- NT3H1101): Align pins using the indicator in silkscreen. Apply flux and reflow using hot air station or a fine tip soldering iron. 
+3. Passive Components: Solder the 100nf decoupling capacitor across VOUT and VSS, followed by the 33 ohm curreny limiting resistors. 
+4. LED orientation: Check the polarity on the back of the 0603 SMD leds(red led preferred) before soldering to ensure correct polarity. 
+5. Also make sure that you don't erase or damage the silkscreen data as there's a qr code in it and erasing it may corrupt the data. 
+
+### 3. Programming the NT3H1101W0FTTJ data:
+No external programmer or hardware flasher is required!!!
+1. Download NFC Tools(available for free on [ios](https://apps.apple.com/np/app/ntag-i2c-demoboard/id1495775864
+NTAG I2C Demoboard) and [android](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter)).
+2. Open the app, select "Write", and add your record (eg. URL Link,vCard or social media handle). 
+3. Tap "Write" and hold the PCB card near your phone to save your digital information directly ti onboard chip. 
+
+## Photos:
+### CAD:
+
+### Schematic:
+
+### PCB:
+
+## BOM(initial):
