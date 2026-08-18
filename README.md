@@ -73,9 +73,38 @@ NTAG I2C Demoboard) and [android](https://play.google.com/store/apps/details?id=
 
 ## Photos:
 ### CAD:
+1. PCB:
+<img width="818" height="475" alt="Screenshot 2026-08-18 at 2 29 23 PM" src="https://github.com/user-attachments/assets/be3b168e-2040-4b1f-8253-a7a108b9bb57" />
+<img width="813" height="509" alt="Screenshot 2026-08-18 at 2 30 11 PM" src="https://github.com/user-attachments/assets/a48cea20-6f1d-498e-a88f-b23acf121ca4" />
+
+2. LED:
+<img width="526" height="509" alt="Screenshot 2026-08-18 at 2 33 27 PM" src="https://github.com/user-attachments/assets/e59ea91b-98b7-41f5-a5f3-2b23a0cbea85" />
+
+3. Capacitor:
+<img width="542" height="495" alt="Screenshot 2026-08-18 at 2 34 09 PM" src="https://github.com/user-attachments/assets/60486c66-14aa-40e4-a0e4-0ca35f0fc5f5" />
+
+4. NT3H1101W0FTTJ nfc chip:
+<img width="666" height="466" alt="Screenshot 2026-08-18 at 2 35 03 PM" src="https://github.com/user-attachments/assets/5e6ba8ce-65ac-4bdc-9881-50b10fb2808c" />
+
+5. Resistor:
+<img width="596" height="474" alt="Screenshot 2026-08-18 at 2 35 22 PM" src="https://github.com/user-attachments/assets/16f3d2fc-9dbe-48a3-b027-f56871e16c20" />
+
+
+
 
 ### Schematic:
+<img width="933" height="442" alt="Screenshot 2026-08-18 at 2 28 03 PM" src="https://github.com/user-attachments/assets/f6b38256-db87-4f59-9021-5a14385ec6d4" />
+
 
 ### PCB:
+<img width="806" height="728" alt="Screenshot 2026-08-18 at 2 36 14 PM" src="https://github.com/user-attachments/assets/6a8095ef-1995-44a3-b205-468ab20920df" />
+<img width="618" height="464" alt="Screenshot 2026-08-18 at 2 36 52 PM" src="https://github.com/user-attachments/assets/691bcd71-7ee2-4034-ab7d-63ffd28cb546" />
+
 
 ## BOM(initial):
+
+1. 100nf Capacitor_SMD:C_0603_1608Metric
+2. LED_SMD:LED_0603_1608Metric
+3. 33 ohm Resistor_SMD:R_0603_1608Metric
+4. NT3H1101W0FTTJ:TSSOP8_SOT505-1_NXP(nfc chip)
+5. Printed pcb ready for soldering
