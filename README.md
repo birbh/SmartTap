@@ -103,8 +103,9 @@ NTAG I2C Demoboard) and [android](https://play.google.com/store/apps/details?id=
 
 ## BOM(initial):
 
-1. 100nf Capacitor_SMD:C_0603_1608Metric
-2. LED_SMD:LED_0603_1608Metric
-3. 33 ohm Resistor_SMD:R_0603_1608Metric
-4. NT3H1101W0FTTJ:TSSOP8_SOT505-1_NXP(nfc chip)
-5. Printed pcb ready for soldering
+"Reference","Qty","Value","Footprint","Description",Price(total),Link
+"C1","1","100nf","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor",~$5,https://rb.gy/pjl6ke
+"D1,D2,D3,D4","4","LED","LED_SMD:LED_0603_1608Metric","Light emitting diode",~$9,https://h1.nu/1vUUt
+"R1,R2,R3,R4","4","33R","Resistor_SMD:R_0603_1608Metric","Resistor",$5,https://h1.nu/1BzlD
+"U1","1","NT3H1101W0FTTJ","NT3H1101W0FTTJ:TSSOP8_SOT505-1_NXP","NFC chip",~$2,https://h1.nu/1vUZM
+Total,,,,,~$22,
