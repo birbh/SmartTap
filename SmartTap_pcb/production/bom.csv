@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,0603,1,100nf,
+"D1, D2, D3, D4",0603,4,LED,
+"R1, R2, R3, R4",0603,4,33R,
+U1,TSSOP8_SOT505-1_NXP,1,NT3H1101W0FTTJ,
