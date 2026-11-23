@@ -102,13 +102,13 @@ No external programmer or hardware flasher is required!!!
 
 ## BOM(initial):
 
-|Reference  |Qty|Value         |Footprint                         |Description          |Price(total)(with delivery)|Link                     |
-|-----------|---|--------------|----------------------------------|---------------------|---------------------------|-------------------------|
-|C1         |1  |100nf         |Capacitor_SMD:C_0603_1608Metric   |Unpolarized capacitor|~$6.5                      |https://shorturl.at/pb3hk|
-|D1,D2,D3,D4|4  |LED           |LED_SMD:LED_0603_1608Metric       |Light emitting diode |~$5.4                      |https://shorturl.at/OBKqx|
-|R1,R2,R3,R4|4  |33R           |Resistor_SMD:R_0603_1608Metric    |Resistor             |$5.5                       |https://shorturl.at/QddhA|
-|U1         |1  |NT3H1101W0FTTJ|NT3H1101W0FTTJ:TSSOP8_SOT505-1_NXP|NFC chip             |~$28                       |https://shorturl.at/ylJg6|
-|Total      |   |              |                                  |                     |~$48                       |                         |
-
+|Reference  |Qty|Value         |Footprint                         |Description          |Price(total)(with delivery)|Link                                                                                                                           |
+|-----------|---|--------------|----------------------------------|---------------------|---------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+|C1         |1  |100nf         |Capacitor_SMD:C_0603_1608Metric   |Unpolarized capacitor|~$6.5                      |https://shorturl.at/pb3hk                                                                                                      |
+|D1,D2,D3,D4|4  |LED           |LED_SMD:LED_0603_1608Metric       |Light emitting diode |~$5.4                      |https://shorturl.at/OBKqx                                                                                                      |
+|R1,R2,R3,R4|4  |33R           |Resistor_SMD:R_0603_1608Metric    |Resistor             |$5.5                       |https://shorturl.at/QddhA                                                                                                      |
+|U1         |1  |NT3H1101W0FTTJ|NT3H1101W0FTTJ:TSSOP8_SOT505-1_NXP|NFC chip             |~$28                       |https://shorturl.at/ylJg6                                                                                                      |
+|           |   |              |                                  |PCB Facbrication     |$15.15                     |https://user-cdn.hackclub-assets.com/01a20647-196d-71cb-9590-aee359e5c0da/Screenshot%202026-11-23%20at%208.25.24%E2%80%AFAM.png|
+|Total      |   |              |                                  |                     |~$63.15                    |                                                                                                                               |
 
 
